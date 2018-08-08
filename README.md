@@ -10,6 +10,7 @@ INSTALLATION INSTRUCTIONS:
 5. Create free account into https://developers.themoviedb.org/3
 6. Insert your movieDB auth token into GetPoster.php line 13.
 7. Set webhook to your bot using: https://api.telegram.org/bot[YOUR_BOT_TOKEN_HERE]/setwebhook?url=[URL_TO_PEKKA-MOVIE-BOT_FOLDER_ON_YOUR_WEBSERVER]/bot.php]
+8. Disable bot's group privacy in the bot's settings.
 
 Done!
 
