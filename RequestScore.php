@@ -155,8 +155,9 @@ if($found==false) {
             foreach ($html->find('h1[itemprop=name]') as $element) {
                 $name = $element->plaintext;
             }
-            $name = substr($name, 0, strpos($name, '&'));
-
+            //$name = substr($name, 0, strpos($name, '&'));
+	    $name = $nameArray[0];
+	    $name = ucwords($name);
         }
 
         if($name==""){
